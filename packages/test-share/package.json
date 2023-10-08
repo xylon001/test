@@ -1,12 +1,12 @@
 {
   "name": "@gwj/test-share",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "geweijie",
   "license": "ISC",
   "publishConfig": {
     "access": "public"

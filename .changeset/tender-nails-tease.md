@@ -1,6 +1,6 @@
 ---
-"@gwj/test-share": major
-"@gwj/test": major
+"@geweijie/test-share": major
+"@geweijie/test": major
 ---
 
 version

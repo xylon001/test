@@ -12,6 +12,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@gwj/test-share": "workspace:^1.0.0"
+    "@geweijie/test-share": "workspace:^1.0.0"
   }
 }

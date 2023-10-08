@@ -1,5 +1,5 @@
 ---
-"@gwj/test-share": major
+"@geweijie/test-share": major
 ---
 
 public

@@ -1,0 +1,40 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/xylon/Documents/webpack/monorepo"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "Command failed with ENOENT: -F @gwj/test add @gwj/test-share\nspawn -F ENOENT",
+      "code": "ENOENT",
+      "stack": "Error: Command failed with ENOENT: -F @gwj/test add @gwj/test-share\nspawn -F ENOENT\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)\n    at onErrorNT (internal/child_process.js:467:16)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)"
+    }
+  },
+  "2 error pnpm": {
+    "errno": -2,
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "syscall": "spawn -F",
+    "path": "-F",
+    "spawnargs": [
+      "@gwj/test",
+      "add",
+      "@gwj/test-share"
+    ],
+    "originalMessage": "spawn -F ENOENT",
+    "shortMessage": "Command failed with ENOENT: -F @gwj/test add @gwj/test-share\nspawn -F ENOENT",
+    "command": "-F @gwj/test add @gwj/test-share",
+    "escapedCommand": "-F \"@gwj/test\" add \"@gwj/test-share\"",
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "prefix": "/Users/xylon/Documents/webpack/monorepo/packages/test",
+    "err": {
+      "name": "Error",
+      "message": "Command failed with ENOENT: -F @gwj/test add @gwj/test-share\nspawn -F ENOENT",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: Command failed with ENOENT: -F @gwj/test add @gwj/test-share\nspawn -F ENOENT\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)\n    at onErrorNT (internal/child_process.js:467:16)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)"
+    }
+  }
+}

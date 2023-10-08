@@ -1,6 +1,6 @@
 {
   "name": "@gwj/test",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@gwj/test-share": "workspace:^1.0.0"
+    "@gwj/test-share": "workspace:^3.0.0"
   }
 }

@@ -1,3 +1,3 @@
-import index from "@gwj/test-share";
+import index from '@gwj/test-share';
 
 index();
